@@ -1,0 +1,1207 @@
+
+@media (max-width: 768px) {
+body, html {
+font-size: 16px;
+height: 100%;
+margin: 0;
+font-family: "lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+background-color: #f4f4f4;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
+position:relative;
+opacity:0.70;
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+/* fixed = parallax
+scroll =normal
+*/
+background-attachment: fixed;
+}
+.pimg1 {
+     background-image: url('/img/Picture-1.jpg');
+     min-height: 90%;
+}
+.pimg2 {
+     background-image: url('/img/Picture-2.jpg');
+     min-height: 90%;
+}
+.pimg3 {
+     background-image: url('/img/Picture-1.jpg');
+     min-height: 90%;
+}
+.section {
+     text-align:center;
+     padding:50px 80px;
+     padding-top: 3%;
+     padding-right: 2%;
+     padding-bottom: 2%;
+     padding-left: 2%;
+}
+.sectionFooter {
+     text-align: center;
+     padding: 15px 25px;
+}
+
+.ptext{
+     position: absolute;
+     top:50%;
+     width: 100%;
+     text-align: center;
+     color:#000;
+     font-size: 1rem;
+     letter-spacing:4px;
+     text-transform:uppercase;
+}
+.ptext .border{
+     color: #ffffff;
+     font-weight: bold;
+     padding:  20px;
+     font-size: 14px;
+}
+.ptext .border .trans {
+     background-color: transparent;
+}
+.aoHeaderDesign {
+     text-align: center;
+     font-size: 20px;
+     letter-spacing: 8;
+}
+.aoLogoImg {
+     max-height: 6vh ;
+     text-align: center;
+     padding: 0% 1% 0% 1%;
+}
+.containerHeader {
+     display: flex;
+     font-size: 27px;
+     letter-spacing: 8;
+     align-items: center;
+     justify-content: center;
+     color: #183539;
+     padding-top: 1%;
+     padding-bottom: 1%;
+}
+a:link, a:visited, a:active {
+    text-decoration: none !important;
+    color: #fff;
+}
+.emailDesign {
+     text-align: center;
+     font-size: 1em;
+}
+.marca-design {
+     font-size: 2rem;
+     color: #416f75;
+     padding: 10px 10px 10px 10px;
+ }
+ .ao-logo{
+     width: 3%;
+ }
+ .aoFooterDesign {
+     text-align: center;
+     font-size: 20px;
+     letter-spacing: 8;
+     color: #f6f9fc;
+}
+.text-center {
+     display: flex;
+     text-align: center !important;
+     /* align-content: space-around; */
+     justify-content: center;
+ }
+ /*---5 Julio 2024------------------------------------------------------------------------*/
+.container-gray{
+    background-color: #183539;
+}
+.container-white{
+    background-color: #ffffff;;
+}
+.container-white-dark{
+    background-color: #efefef;;
+}
+.container-calltoaction{
+    background-color: #0a2540;
+}
+.Title-Design {
+    font-size: 1rem;
+    color: #005866;
+    padding-top: 1.5rem;
+}
+.footer-Design {
+    font-size: 1.5rem;
+    color: #f6f9fc;
+}
+.subTitle-Design {
+    font-size: 1.5rem;
+    color: #1F8BFF;
+}
+.callToAction-Design {
+    font-size: 2rem;
+    color: #1F8BFF;
+}
+.paraph-Design {
+    font-size: 12rem;
+    color: #1F8BFF;
+}
+/*---------------------------------------------------------------------------*/
+.sn-icons {
+    width: 2rem;
+}
+.ao-footer-logo {
+    width: 10rem;
+}
+.sn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #183539;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #183539;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #183539;
+}
+.placehldr{
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    border-style: solid;
+    background-color: grey;
+}
+/*---remove from bootstrap------------------------------------------------------------------------*/
+.border {
+    border: none !important;
+}
+/*---Testimonial Companies---------------------------------------------------------------------------------------------*/
+.testimonialContainer {
+overflow: hidden;
+white-space: nowrap;
+position: relative;
+width: 100%;
+}  
+.testimonialContainer2 {
+display: flex;
+animation: slide 60s linear infinite;
+}  
+.testimonialContainer2 img {
+width: 200px;
+height: auto;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}  
+@keyframes slide {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-400%);
+}
+}
+/*------------------------------------------------------------------------------------------------*/
+.phrase-Design {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.phrase-text{
+    font-size: 1.2rem;
+    color: #005866;
+}
+.images-design {
+    width: 50%;
+    height: auto;
+}
+/*---Design------------------------------------------------------------------------*/
+.container_blue {
+    background-color: #183539;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+/*---Datos------------------------------------------------------------------------*/
+/*---R Pitayo------------------------------------------------------------------------*/
+.contain-pitayo {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/RanchoPitayo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-pitayo:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-pitayo .texto, .contain-pitayo a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-pitayo .texto {
+    top: 55%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-pitayo a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Expo Guadalajara------------------------------------------------------------------------*/
+.contain-ExpoGDL {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/ExpoGDL.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-ExpoGDL:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-ExpoGDL .texto, .contain-ExpoGDL a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-ExpoGDL .texto {
+    top: 55%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-ExpoGDL a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---virc Snacks------------------------------------------------------------------------*/
+.contain-Virc {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/Virc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-Virc:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-Virc .texto, .contain-Virc a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-Virc .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-Virc a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*--Overlay Statistics---------------------------------------------------------------------------*/
+.overlay-statistics {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con opacidad */
+}
+/*--Que hago---------------------------------------------------------------------------*/
+/*---SRE--------------------------------------------------------------------------*/
+.conten-SRE {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/sre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-SRE:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-SRE .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-SRE a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Software--------------------------------------------------------------------------*/
+.conten-software {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/software.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-software:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-software .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-software a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Platicas--------------------------------------------------------------------------*/
+.conten-Platicas {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/talks.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-Platicas:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-Platicas .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-Platicas a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Blog----------------------------------------------------------------------*/
+/*---Content Bussines Intelligence----------------------------------------------------------------------*/
+.conten-BI {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/DevOps.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-BI:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-BI .texto, .conten-BI a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-BI .texto {
+    top: 60%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-BI a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Container Data Science------------------------------------------*/
+.conten-DS {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/Linux.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-DS:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-DS .texto, .conten-DS a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-DS .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-DS a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Container IA------------------------------------------*/
+.conten-IA {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/SRE.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-IA:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-IA .texto, .conten-IA a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-IA .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-IA a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---------------------------------------------*/
+/*--Esta propiedad la comparten todos los contenedores que tienen div FX-------------------------------------------*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    transition: background-color 0.3s ease;
+}
+/*---------------------------------------------*/
+/*--About me-------------------------------------------*/
+.my-picture-design {
+    width: 100%;
+    height: auto;
+}
+.ao-mr-text {
+    color: #efefef;
+    font-size: 0.8rem;
+}
+/*---Modal------------------------------------------*/
+.modal-icon{
+  width: 3rem;
+  height: auto;
+}
+.modal-icon-gdl{
+  width: 12rem;
+  height: auto;
+}
+.modal-icon-virc{
+  width: 5rem;
+  height: auto;
+}
+.modal-title-ao{
+  padding-top: 1rem;
+  color: #005866;
+  font-weight: bold;
+}
+.modal-subtitle-ao {
+  color: #1F8BFF;
+}
+.modal-image-proyect{
+  width: 100%;
+  height: auto;
+}
+}
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---Desktop------------------------------------------------------------------------*/
+@media (min-width: 768px) {
+ body, html {
+font-size: 16px;
+height: 100%;
+margin: 0;
+font-family: "lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+background-color: #f4f4f4;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
+position:relative;
+opacity:0.70;
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+/* fixed = parallax
+scroll =normal
+*/
+background-attachment: fixed;
+}
+.pimg1 {
+     background-image: url('/img/Picture-1.jpg');
+     min-height: 90%;
+}
+.pimg2 {
+     background-image: url('/img/Picture-2.jpg');
+     min-height: 90%;
+}
+.pimg3 {
+     background-image: url('/img/Picture-1.jpg');
+     min-height: 90%;
+}
+.section {
+     text-align:center;
+     padding:50px 80px;
+     padding-top: 3%;
+     padding-right: 2%;
+     padding-bottom: 2%;
+     padding-left: 2%;
+}
+.sectionFooter {
+     text-align: center;
+     padding: 15px 25px;
+}
+
+.ptext{
+     position: absolute;
+     top:50%;
+     width: 100%;
+     text-align: center;
+     color:#000;
+     font-size: 4rem;
+     letter-spacing:8px;
+     text-transform:uppercase;
+}
+.ptext .border{
+     color: #ffff;
+     font-weight: bold;
+     padding:  20px;
+     font-size: 18px;
+}
+.ptext .border .trans {
+     background-color: transparent;
+}
+.aoHeaderDesign {
+     text-align: center;
+     font-size: 36px;
+     letter-spacing: 8;
+}
+.aoLogoImg {
+     max-height: 12vh ;
+     text-align: center;
+     padding: 0% 1% 0% 1%;
+}
+.containerHeader {
+     display: flex;
+     font-size: 27px;
+     letter-spacing: 8;
+     align-items: center;
+     justify-content: center;
+     color: #183539;
+     padding-top: 1%;
+     padding-bottom: 1%;
+}
+a:link, a:visited, a:active {
+    text-decoration: none !important;
+    color: #fff;
+}
+.emailDesign {
+     text-align: center;
+     font-size: 1em;
+}
+.marca-design {
+     font-size: 2rem;
+     color: #416f75;
+     padding: 10px 10px 10px 10px;
+ }
+ .ao-logo{
+     width: 3%;
+ }
+ .aoFooterDesign {
+     text-align: center;
+     font-size: 20px;
+     letter-spacing: 8;
+     color: #f6f9fc;
+}
+.text-center {
+     display: flex;
+     text-align: center !important;
+     /* align-content: space-around; */
+     justify-content: center;
+ }
+ /*---5 Julio 2024------------------------------------------------------------------------*/
+.container-gray{
+    background-color: #183539;
+}
+.container-white{
+    background-color: #ffffff;;
+}
+.container-white-dark{
+    background-color: #efefef;;
+}
+.container-calltoaction{
+    background-color: #0a2540;
+}
+.Title-Design {
+    font-size: 2rem;
+    color: #005866;
+}
+.footer-Design {
+    font-size: 1.5rem;
+    color: #f6f9fc;
+}
+.subTitle-Design {
+    font-size: 1.5rem;
+    color: #1F8BFF;
+}
+.callToAction-Design {
+    font-size: 2rem;
+    color: #1F8BFF;
+}
+.paraph-Design {
+    font-size: 12rem;
+    color: #1F8BFF;
+}
+/*---------------------------------------------------------------------------*/
+.sn-icons {
+    width: 2rem;
+}
+.ao-footer-logo {
+    width: 10rem;
+}
+.sn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #183539;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #183539;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #183539;
+}
+.placehldr{
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    border-style: solid;
+    background-color: grey;
+}
+/*---remove from bootstrap------------------------------------------------------------------------*/
+.border {
+    border: none !important;
+}
+/*---Testimonial Companies---------------------------------------------------------------------------------------------*/
+.testimonialContainer {
+overflow: hidden;
+white-space: nowrap;
+position: relative;
+width: 100%;
+}  
+.testimonialContainer2 {
+display: flex;
+animation: slide 60s linear infinite;
+}  
+.testimonialContainer2 img {
+width: 200px;
+height: auto;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}  
+@keyframes slide {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-400%);
+}
+}
+/*------------------------------------------------------------------------------------------------*/
+.phrase-Design {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.phrase-text{
+    font-size: 1.5rem;
+    color: #005866;
+}
+.images-design {
+    width: 50%;
+    height: auto;
+}
+/*---Design------------------------------------------------------------------------*/
+.container_blue {
+    background-color: #183539;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+/*---Datos------------------------------------------------------------------------*/
+/*---R Pitayo------------------------------------------------------------------------*/
+.contain-pitayo {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/RanchoPitayo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-pitayo:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-pitayo .texto, .contain-pitayo a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-pitayo .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-pitayo a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Expo Guadalajara------------------------------------------------------------------------*/
+.contain-ExpoGDL {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/ExpoGDL.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-ExpoGDL:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-ExpoGDL .texto, .contain-ExpoGDL a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-ExpoGDL .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-ExpoGDL a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---virc Snacks------------------------------------------------------------------------*/
+.contain-Virc {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/statistics/Virc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain-Virc:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.contain-Virc .texto, .contain-Virc a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.contain-Virc .texto {
+    top: 70%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.contain-Virc a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*--Overlay Statistics---------------------------------------------------------------------------*/
+.overlay-statistics {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con opacidad */
+}
+/*--Que hago---------------------------------------------------------------------------*/
+/*---SRE--------------------------------------------------------------------------*/
+.conten-SRE {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/sre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-SRE:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-SRE .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-SRE a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Software--------------------------------------------------------------------------*/
+.conten-software {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/software.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-software:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-software .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-software a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Platicas--------------------------------------------------------------------------*/
+.conten-Platicas {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/proyectos/talks.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-Platicas:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-Platicas .texto {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conten-Platicas a {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*---Blog----------------------------------------------------------------------*/
+/*---Content Bussines Intelligence----------------------------------------------------------------------*/
+.conten-BI {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/DevOps.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-BI:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-BI .texto, .conten-BI a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-BI .texto {
+    top: 65%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-BI a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Container Data Science------------------------------------------*/
+.conten-DS {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/Linux.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-DS:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-DS .texto, .conten-DS a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-DS .texto {
+    top: 70%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-DS a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---Container IA------------------------------------------*/
+.conten-IA {
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-image: url('/img/blog/SRE.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conten-IA:hover .overlay {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia la opacidad al hacer hover */
+}
+.conten-IA .texto, .conten-IA a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Asegura que el ancho se ajuste al contenido */
+    margin: 0; /* Ajusta según sea necesario */
+    padding: 0; /* Ajusta según sea necesario */
+}
+.conten-IA .texto {
+    top: 70%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del elemento esté centrado */
+}
+.conten-IA a {
+    top: 80%;
+    color: #183539;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+}
+/*---------------------------------------------*/
+/*--Esta propiedad la comparten todos los contenedores que tienen div FX-------------------------------------------*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    transition: background-color 0.3s ease;
+}
+/*---------------------------------------------*/
+/*--About me-------------------------------------------*/
+.my-picture-design {
+    width: 100%;
+    height: auto;
+}
+.ao-mr-text {
+    color: #efefef;
+    font-size: 1rem;
+}   
+/*---Modal------------------------------------------*/
+.modal-icon{
+  width: 3rem;
+  height: auto;
+}
+.modal-icon-gdl{
+  width: 12rem;
+  height: auto;
+}
+.modal-icon-virc{
+  width: 5rem;
+  height: auto;
+}
+.modal-title-ao{
+  padding-top: 1rem;
+  color: #005866;
+  font-weight: bold;
+}
+.modal-subtitle-ao {
+  color: #1F8BFF;
+}
+.modal-image-proyect{
+  width: 100%;
+  height: auto;
+}
+}

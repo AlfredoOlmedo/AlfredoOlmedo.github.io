@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /index.html
+Allow: /blog.html
+Allow: /ao.html
+Allow: /404.html
